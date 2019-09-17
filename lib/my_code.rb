@@ -14,9 +14,9 @@ def reduce(array,starting_point=nil)
     sum =starting_point
     counter=0
   else
-    num1 = array[0]
+    sum = array[0]
     counter= 1
   end
   while counter < array.length 
-  yield(num1, array[counter])
+ sum = yield(sum, array[counter])
 end
