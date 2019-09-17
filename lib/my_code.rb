@@ -1,4 +1,5 @@
 # Your Code 
-def map
+def map(array)
   new =[]
-  while
+  counter = 0
+  while counter < array.length
