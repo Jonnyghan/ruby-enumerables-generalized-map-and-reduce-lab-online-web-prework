@@ -1,1 +1,4 @@
-# Your Code Here
+# Your Code 
+def map
+  new =[]
+  while
