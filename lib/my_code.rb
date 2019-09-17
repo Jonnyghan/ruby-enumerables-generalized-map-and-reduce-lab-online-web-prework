@@ -13,5 +13,6 @@ def reduce(array,starting_point=nil)
   if starting_point 
     num1 =starting_point
     counter=0
-    if
+  else
+    
 end
